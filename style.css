@@ -1,0 +1,122 @@
+body,
+* {
+  /* padding: 20px; */
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.body-container {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  gap: 80px;
+  margin-top: 80px;
+}
+.header {
+  width: 80vw;
+  margin: auto;
+  border-bottom: solid 1px hsl(220, 14%, 75%);
+}
+.header li:last-child img {
+  width: 40px;
+}
+.header ul {
+  color: hsl(219, 9%, 45%);
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  list-style-type: none;
+}
+.header li:nth-child(6) {
+  margin-right: auto;
+}
+.left-column {
+}
+.left-column img {
+  border-radius: 18px;
+}
+.top-content img {
+  height: 400px;
+  width: 100%;
+}
+.bottom-content {
+  margin-top: 20px;
+  height: 100px;
+  display: flex;
+  gap: 15px;
+}
+.bottom-content img:hover {
+  border: orange solid 4px;
+  opacity: 0.5;
+}
+.right-column {
+  margin-top: 70px;
+}
+.right-column h3 {
+  color: orange;
+}
+.right-column h1 {
+  font-size: 50px;
+  width: 600px;
+  margin-top: 10px;
+}
+.right-column p {
+  color: hsl(219, 9%, 45%);
+  width: 440px;
+  margin-top: 40px;
+}
+.bottom-feed {
+  margin-top: 25px;
+}
+.price-tag {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  margin-bottom: 10px;
+  color: black;
+}
+.price-tag h2 {
+    background-color: hsl(223, 64%, 98%);
+   border-radius: 6px;
+   color: orange;
+   padding: 10px;
+}
+.underline {
+  text-decoration: line-through;
+  color: hsl(219, 9%, 45%);
+  margin-bottom: 30px;
+}
+.feed-section {
+  display: flex;
+  gap: 20px;
+}
+.product-number {
+  margin-top: 12px 20px 10px;
+  align-items: center;
+  background-color: hsl(223, 64%, 98%);
+  padding: 10px 20px;
+  border-radius: 8px;
+  justify-content: space-evenly;
+}
+.product-number > span {
+  padding: 40px;
+}
+
+.cart-section {
+  align-items: center;
+}
+.cart-section button {
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  color: white;
+  /* width: 250px;
+    height: 50px; */
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.cart-section img {
+  padding-right: 20px;
+  color: white;
+}
